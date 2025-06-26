@@ -1,5 +1,4 @@
 ---
-import "@fontsource-variable/roboto";
 import { config } from "@/data/config";
 ---
 
@@ -28,6 +27,7 @@ import { config } from "@/data/config";
     <meta name="twitter:app:name:iphone" content="Rohith reddy - Software Engineer" />
     <meta name="twitter:app:name:ipad" content="Rohith reddy - Software Engineer" />
     <meta name="twitter:app:name:googleplay" content="Rohith reddy - Software Engineer" />
+    <link rel="preload" href="/fonts/roboto.woff2" as="font" type="font/woff2" crossorigin />
     <script
       is:inline
       defer
@@ -43,8 +43,12 @@ import { config } from "@/data/config";
 </html>
 
 <style is:global>
-  body{
-    font-family: 'Roboto Variable', sans-serif;
+  @font-face {
+    font-family: "'Roboto', sans-serif";
+    src: url('/fonts/roboto.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
 
   ::selection {

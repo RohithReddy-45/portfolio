@@ -120,7 +120,7 @@ const Main = () => {
           </h1>
           <a
             href="https://drive.google.com/file/d/1BUMpzUDdvD5n0aHVvthBLc3RsoTIhOZz/view?usp=drive_link"
-            className="px-4 py-2 text-sm font-medium text-slate-200 bg-slate-800/50 border border-slate-700 rounded-md hover:bg-slate-700/50 transition-colors"
+            className="px-4 py-2 text-sm text-center font-medium text-slate-200 bg-slate-800/50 border border-slate-700 rounded-md hover:bg-slate-700/50 transition-colors"
           >
             Download Resume
           </a>
