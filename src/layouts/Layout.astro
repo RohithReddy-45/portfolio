@@ -5,6 +5,13 @@ import { config } from "@/data/config";
 <!doctype html>
 <html lang="en">
   <head>
+    <script is:inline>
+      let theme;
+      try { theme = localStorage.getItem('theme'); } catch {}
+      document.documentElement.dataset.theme = theme === 'light' || theme === 'dark'
+        ? theme
+        : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,18 +40,34 @@ import { config } from "@/data/config";
       defer
       src="https://cloud.umami.is/script.js"
       data-website-id="1cbb53ee-b266-43b6-9137-63efef29a8e6"></script>
-    <title>Rohith reddy - Software Engineer</title>
+    <title>{config.siteTitle} · Software engineer</title>
   </head>
-  <body
-    class="antialiased bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-slate-200 min-w-[320px]"
-  >
+  <body>
     <slot />
+    <script>
+      const button = document.getElementById('theme-toggle');
+      const root = document.documentElement;
+      function updateButton() {
+        const dark = root.dataset.theme === 'dark';
+        const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+        button?.setAttribute('aria-label', label);
+        button?.setAttribute('title', label);
+        button?.setAttribute('aria-pressed', String(dark));
+        document.getElementById('commit-history-dark')?.setAttribute('media', dark ? 'all' : 'not all');
+      }
+      updateButton();
+      button?.addEventListener('click', () => {
+        root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        try { localStorage.setItem('theme', root.dataset.theme); } catch {}
+        updateButton();
+      });
+    </script>
   </body>
 </html>
 
 <style is:global>
   @font-face {
-    font-family: "'Roboto', sans-serif";
+    font-family: "Roboto";
     src: url('/fonts/roboto.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -52,12 +75,12 @@ import { config } from "@/data/config";
   }
 
   ::selection {
-    background-color: #7109e9;
-    color: #f1f5f9;
+    background-color: #e5e5e5;
+    color: #252525;
   }
 
   ::-moz-selection {
-    background-color: #7109e9;
-    color: #f1f5f9;
+    background-color: #e5e5e5;
+    color: #252525;
   }
 </style>

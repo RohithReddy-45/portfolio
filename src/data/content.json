@@ -1,0 +1,162 @@
+{
+  "mainData": {
+    "name": "Rohith Reddy",
+    "description": "I build web applications, backend APIs, and mobile apps. Currently working at CtrlCampus on software for educational institutions.",
+    "role": "Full-stack developer",
+    "resumeUrl": "https://drive.google.com/file/d/1BUMpzUDdvD5n0aHVvthBLc3RsoTIhOZz/view?usp=drive_link"
+  },
+  "contact": {
+    "github": "https://github.com/RohithReddy-45",
+    "linkedin": "https://www.linkedin.com/in/rohith-reddy45",
+    "email": "mailto:samreddyrohith@gmail.com",
+    "instagram": "https://www.instagram.com/ro.dev45/",
+    "x": "https://x.com/Ro_dev45"
+  },
+  "commitHistory": {
+    "url": "https://commit-history.com/RohithReddy-45",
+    "lightImageUrl": "https://commit-history.com/embed/RohithReddy-45",
+    "darkImageUrl": "https://commit-history.com/embed/RohithReddy-45?theme=dark",
+    "caption": "Personal GitHub contributions only. Does not include my work contributions."
+  },
+  "projects": [
+    {
+      "title": "CtrlCampus",
+      "category": "Education ERP",
+      "role": "Professional work · Full-stack development",
+      "description": "An education ERP for admissions, academics, attendance, finance, HR, and communication. Contributed to React web interfaces, Node.js and Express APIs backed by MongoDB, and React Native mobile apps styled with Tailwind CSS.",
+      "liveUrl": "https://www.ctrlcampus.com/",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React Native",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Applyn",
+      "category": "Job search & career tools",
+      "role": "Personal project",
+      "description": "A job search platform to browse and save opportunities, track applications, and build resumes, with a responsive interface for desktop and mobile.",
+      "liveUrl": "https://applyn.rohcode.workers.dev",
+      "tags": ["React", "TypeScript", "TanStack", "Tailwind CSS", "Cloudflare"]
+    },
+    {
+      "title": "Transport Management System",
+      "category": "Logistics prototype",
+      "role": "UI development",
+      "description": "Built UI workflows for a shipper and carrier logistics prototype covering carrier invitations, auction-style bidding, multi-stop pickup and drop planning, shipment tracking, and invoice activation.",
+      "tags": ["React", "TypeScript", "Tailwind CSS", "React Query", "Zustand"]
+    },
+    {
+      "title": "Byte Tutorials",
+      "category": "Learning platform",
+      "role": "Personal project",
+      "description": "A tech learning platform curating YouTube tutorials across 60+ technologies, with personalized watchlists.",
+      "liveUrl": "https://byte-tutorials.vercel.app/",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Drizzle ORM",
+        "Turso",
+        "Zod",
+        "Sentry",
+        "Umami",
+        "Playwright"
+      ]
+    },
+    {
+      "title": "VS Code Portfolio",
+      "category": "Mobile experiment",
+      "role": "Personal project",
+      "description": "A Visual Studio Code-inspired mobile portfolio app showcasing projects and skills.",
+      "githubUrl": "https://github.com/RohithReddy-45/vscode-portfolio",
+      "liveUrl": "https://www.youtube.com/shorts/vnpea1uDrdM",
+      "tags": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Nativewind",
+        "Reanimated",
+        "React Query"
+      ]
+    },
+    {
+      "title": "Stepinstyle",
+      "category": "E-commerce",
+      "role": "Personal project",
+      "description": "A full-featured e-commerce platform with optimized state management, responsive UI, and efficient data storage using MongoDB.",
+      "githubUrl": "https://github.com/RohithReddy-45/stepinstyle",
+      "liveUrl": "https://step-in-style.netlify.app/",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "Redux",
+        "MongoDB",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "description": "Developing web interfaces, backend APIs, and mobile apps for an education ERP. Working across React, Node.js, Express, MongoDB, and React Native to support everyday school operations.",
+      "company": "CtrlCampus",
+      "timePeriod": "Feb 2025 - Present",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React Native",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "skills": {
+    "Languages": ["JavaScript", "TypeScript", "Python", "SQL"],
+    "Frontend Technologies": [
+      "React.js",
+      "Next.js",
+      "Astro",
+      "Redux.js",
+      "React Query",
+      "Zustand",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Framer motion"
+    ],
+    "Backend Technologies": [
+      "Node.js",
+      "Express.js",
+      "Postgres",
+      "MongoDB",
+      "Supabase",
+      "Firebase"
+    ],
+    "Mobile Technologies": ["React Native", "Expo", "Nativewind", "Reanimated"],
+    "Others": [
+      "Drizzle",
+      "Prisma",
+      "Shadcn",
+      "Docker",
+      "CI/CD",
+      "Cypress",
+      "Jest",
+      "Vitest",
+      "Trigger.dev",
+      "Playwright",
+      "Figma"
+    ]
+  },
+  "metadata": {
+    "description": "Rohith Reddy is a full-stack developer building web applications, backend APIs, and mobile apps. Experience and projects including CtrlCampus, Applyn, and a logistics prototype.",
+    "keywords": "portfolio, frontend, Software Engineer, Web Developer, full-stack development, frontend engineering, JavaScript, TypeScript, React, Node.js, web applications, responsive design, UI/UX, backend development"
+  }
+}
