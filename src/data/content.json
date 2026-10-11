@@ -39,9 +39,20 @@
       "title": "Applyn",
       "category": "Job search & career tools",
       "role": "Personal project",
-      "description": "A job search platform to browse and save opportunities, track applications, and build resumes, with a responsive interface for desktop and mobile.",
+      "description": "A job search platform to browse and save opportunities, track applications, and build resumes. Built the React and TypeScript interface and Hono APIs on Cloudflare Workers, with Drizzle ORM and Turso for data storage, Better Auth for authentication, and Zod for request validation.",
       "liveUrl": "https://applyn.rohcode.workers.dev",
-      "tags": ["React", "TypeScript", "TanStack", "Tailwind CSS", "Cloudflare"]
+      "tags": [
+        "React",
+        "TypeScript",
+        "TanStack",
+        "Tailwind CSS",
+        "Hono",
+        "Cloudflare Workers",
+        "Drizzle ORM",
+        "Turso",
+        "Better Auth",
+        "Zod"
+      ]
     },
     {
       "title": "Transport Management System",
@@ -59,7 +70,7 @@
       "tags": [
         "Next.js",
         "TypeScript",
-        "TailwindCSS",
+        "Tailwind CSS",
         "Drizzle ORM",
         "Turso",
         "Zod",
@@ -125,7 +136,7 @@
       "Next.js",
       "Astro",
       "Redux.js",
-      "React Query",
+      "TanStack",
       "Zustand",
       "CSS",
       "Tailwind CSS",
@@ -135,22 +146,25 @@
     "Backend Technologies": [
       "Node.js",
       "Express.js",
+      "Hono",
       "Postgres",
       "MongoDB",
-      "Supabase",
-      "Firebase"
+      "Drizzle ORM",
+      "Prisma ORM"
     ],
     "Mobile Technologies": ["React Native", "Expo", "Nativewind", "Reanimated"],
     "Others": [
-      "Drizzle",
-      "Prisma",
       "Shadcn",
+      "Better Auth",
       "Docker",
       "CI/CD",
       "Cypress",
       "Jest",
       "Vitest",
       "Trigger.dev",
+      "Cloudflare Workers",
+      "Zod",
+      "Sentry",
       "Playwright",
       "Figma"
     ]
